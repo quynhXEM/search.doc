@@ -30,7 +30,9 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  headTags:[
+    {tagName: "meta", attributes: {name: 'algolia-site-verification', content: 'A4416A329E138739'}}
+  ],
   presets: [
     [
       'classic',
