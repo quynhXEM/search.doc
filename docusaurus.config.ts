@@ -31,7 +31,7 @@ const config: Config = {
     locales: ['en'],
   },
   headTags:[
-    {tagName: "meta", attributes: {name: 'algolia-site-verification', content: 'A4416A329E138739'}}
+    {tagName: "meta", attributes: {name: 'algolia-site-verification', content: '6E5E1FCA847AD3F0'}}
   ],
   presets: [
     [
