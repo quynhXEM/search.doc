@@ -31,7 +31,7 @@ const config: Config = {
     locales: ['en'],
   },
   headTags:[
-    {tagName: "meta", attributes: {name: 'algolia-site-verification', content: '6E5E1FCA847AD3F0'}}
+    {tagName: "meta", attributes: {name: 'algolia-site-verification', content: '89151855343B5E1D'}}
   ],
   presets: [
     [
@@ -69,12 +69,12 @@ const config: Config = {
   themeConfig: {
     algolia: {
       // The application ID provided by Algolia
-      appId: "QW46Z12J1U",
+      appId: "IWTIXQT2R2",
       // Public API key: it is safe to commit it
-      apiKey: "6e9ef5817042f593af31a3aba260f742",
-      indexName: "docs",
+      apiKey: "ccd3ccb97f24fb31e50f08cbb40d356f",
+      indexName: "data",
       // Optional: see doc section below
-      contextualSearch: true,
+      contextualSearch: false,
     },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {

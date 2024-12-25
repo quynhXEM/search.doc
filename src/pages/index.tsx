@@ -6,16 +6,20 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
+import { docsearch } from "meilisearch-docsearch";
+import "meilisearch-docsearch/css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+
+
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <link
         rel="stylesheet"
         href="https://unpkg.com/meilisearch-docsearch@latest/dist/index.css"
       />
-      
+
       <style type="text/css"></style>
       <div className="container">
         <Heading as="h1" className="hero__title">
@@ -30,7 +34,6 @@ function HomepageHeader() {
             Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div>
-        <div id="docsearch"></div>
       </div>
     </header>
   );
